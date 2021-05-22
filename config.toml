@@ -1,3 +1,13 @@
 baseURL = "https://shiploader.io"
 languageCode = "en-us"
 title = "Shiploader"
+theme = "ananke"
+
+
+[[menu.main]]  # here are the buttons on the menu
+name = "Home" # Button will display as "Home"
+weight = 100 # the weight decides the position of the button (higher or lower)
+identifier = "home"
+pre = "<br />"
+url = "/"
+
